@@ -147,6 +147,18 @@ Esse conteúdo é um pouco complicado de digerir, portanto, recomendo fortemente
 https://www.youtube.com/watch?v=VS-V6FFKr6s
 
 ##
+     Questões comuns de caírem nas provas:
+
+##
+
+[2av.pdf](https://github.com/LumaSousa/Resumos-de-OAC/files/12224313/2av.pdf)
+
+
+
+
+
+
+
 
 
 
