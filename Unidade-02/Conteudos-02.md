@@ -1,3 +1,8 @@
+## 
+    NÍVEL ISA: 
+##
+O nível ISA (Instruction Set Architecture) ou Arquitetura de Conjunto de Instruções se refere à interface entre o hardware (processador) e o software (programas ou sistemas operacionais) de um computador. 
+
 ##
     CAMINHO DE DADOS:
 ##
@@ -5,6 +10,15 @@
 É a parte da CPU que contém a ULA suas entradas e suas saídas.
 
 ULA = Unidade Lógica Aritmética
+##
+
+    TIPOS DE DADOS NUMÉRICOS MAIS COMUNS:
+##
+• Decimal
+
+• Ponto fixo binário 
+
+• Ponto flutuante binário 
 
 ##
     PARTES DA CPU:
@@ -18,35 +32,7 @@ ULA = Unidade Lógica Aritmética
  ex: registrador PC (program counter) = contém o endereço da próxima instrução a ser lida. 
 
 ## 
-    DADOS NUMÉRICOS MAIS COMUNS:
-##
-• Decimal
 
-• Ponto fixo binário 
-
-• Ponto flutuante binário 
- 
-##
-    ANOTAÇÕES PESSOAIS DAS EXPLICAÇÕES:
-##
-
-• De acordo com o pulso do clock, a informação leva um tempo Δt para registrar, a informação fica registrada nele de acordo com a forma como estava no momento
-em que chegou. 
-
-ex: chegou 0, fica 0. 
-
-• A CPU possio um tempo de propagação dos dados, que são Δw, Δx, Δy e Δz, se esse tempo for menor do que o necessário, os dados não serão processados
-corretamente, o PC pode dar tela azul. Isso acontece se tirarmos o cooler do processador.
-Daí que vem a ideia do Overclock = resfriar ao máximo o material do processador para que as informações trafeguem com uma velocidade maior. 
-
-• Um processador de 4Ghz suporta até 4,4GHz em média, por causa dos 10% de backup de segurança do fabricante, para que o usuário consiga usá-lo com um 
-cooler mediano.
-
-• As memórias DRAM e RAM em geral, acessam suas células com a mesma velocidade, independendo do lugar em que estão localizados na placa; por isso,
-as linhas de endereço da informação acessada não têm como influenciar na velocidade de desempenho, já a velocidade do barramento sim, pois é ele que
-conecta a memória com a placa da CPU. 
-
-##
        INTERRUPÇÃO           X           EXCEÇÃO 
 ##
 
@@ -69,8 +55,28 @@ ocorre uma mudança no fluxo de controle gerada pelo hardware.
 
 ➔ Exceções são SÍNCRONAS e nelas ocorre uma chamada de procedimento automática gerada pelo SOFTWARE. Essas são as principais diferenças entre
 interrupção e exceção.
+
+##
+    ANOTAÇÕES PESSOAIS DAS EXPLICAÇÕES:
 ##
 
+• De acordo com o pulso do clock, a informação leva um tempo Δt para registrar, a informação fica registrada nele de acordo com a forma como estava no momento
+em que chegou. 
+
+ex: chegou 0, fica 0. 
+
+• A CPU possio um tempo de propagação dos dados, que são Δw, Δx, Δy e Δz, se esse tempo for menor do que o necessário, os dados não serão processados
+corretamente, o PC pode dar tela azul. Isso acontece se tirarmos o cooler do processador.
+Daí que vem a ideia do Overclock = resfriar ao máximo o material do processador para que as informações trafeguem com uma velocidade maior. 
+
+• Um processador de 4Ghz suporta até 4,4GHz em média, por causa dos 10% de backup de segurança do fabricante, para que o usuário consiga usá-lo com um 
+cooler mediano.
+
+• As memórias DRAM e RAM em geral, acessam suas células com a mesma velocidade, independendo do lugar em que estão localizados na placa; por isso,
+as linhas de endereço da informação acessada não têm como influenciar na velocidade de desempenho, já a velocidade do barramento sim, pois é ele que
+conecta a memória com a placa da CPU. 
+
+##
      OPERAÇÕES MONÁDICAS          X          OPERAÇÕES DIADÁTICAS:
 ##
 
@@ -152,6 +158,8 @@ https://www.youtube.com/watch?v=VS-V6FFKr6s
 ##
 
 [2av.pdf](https://github.com/LumaSousa/Resumos-de-OAC/files/12224313/2av.pdf)
+
+
 
 
 
