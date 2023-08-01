@@ -21,12 +21,15 @@ Dei prioridade às definições que estiveram mais presentes nas provas, para qu
 * `1` Nível ISA
 * `2` Caminho de dados
 * `3` Tipos de dados numéricos
-* `4` Interrupção  X  Exceção
-* `5` Operações monádicas e diadáticas
-* `6` Pipeline
-* `7` Modos de endereçamento
-* `8` Registradores
-* `9` Fluxo de controle
+* `4` Partes da CPU
+* `5` Interrupção  X  Exceção
+* `6` Anotações pessoais das explicações
+* `7` Operações monádicas e diadáticas
+* `8` Fluxo de controle
+* `9` Expansão de opcodes
+* `10` Procedimento  X  Corrotina 
+* `11` Modos de endereçamento 
+* `12` Pipeline
 
 ### Unidade 3:
 * `1` Memória virtual
