@@ -153,12 +153,18 @@ Esse conteúdo é um pouco complicado de digerir, portanto, recomendo fortemente
 https://www.youtube.com/watch?v=VS-V6FFKr6s
 
 ##
-     Questões comuns de caírem nas provas:
-
+     PIPELINE
 ##
 
-[2av.pdf](https://github.com/LumaSousa/Resumos-de-OAC/files/12224313/2av.pdf)
+• É uma técnica de paralelismo (você estudará melhor o paralelismo na unidade 3) usada nas arquiteturas atuais para reduzir o tempo de execução de tarefas, sendo assim, várias tarefas executam simultaneamente usando recursos diferentes. 
 
+• Os pipelines ajudam a simplificar o desenvolvimento de sistemas complexos, que ficam mais modulares e organizados; também facilitam a reutilização de etapas de processamento e permitem que diferentes equipes trabalhem em paralelo, concentrando-se em tarefas específicas do pipeline.
+##
+     Questões comuns de caírem nas provas:
+
+
+[2av.pdf](https://github.com/LumaSousa/Resumos-de-OAC/files/12224313/2av.pdf)
+##
 
 
 
