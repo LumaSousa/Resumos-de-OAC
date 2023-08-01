@@ -1,49 +1,52 @@
 ➔ Diferenças entre arquitetura e organização de computadores:
 ##
 
-        ARQUITETURA                   X                 ORGANIZAÇÃO:
+        ARQUITETURA                   X                 ORGANIZAÇÃO:        
 
-• Refere-se às características            • Lida com o relacionamento estrutural
-do sistema que são visíveis ao            da máquina, por isso, é decidida depois
-programador.                              da arquitetura.
-• Descreve o que o computador é           • ex: periféricos, circuitos (unidades físicas)
-capaz de fazer
-• ex: endereçamento, instruções
+• Arquitetura refere-se às características do sistema que são visíveis ao programador.            
+                            
+• Também descreve o que o computador é capaz de fazer          
 
+• ex: endereçamento, instruções;
+
+• Organização lida com o relacionamento estrutural  da máquina, por isso, é decidida depois da arquitetura.
+
+• ex: periféricos, circuitos (unidades físicas)
 ##
 ➔ Diferenças entre nível alto e nível baixo:
 ##
-
      NÍVEL BAIXO               X               NÍVEL ALTO:
 
-O nível baixo é o mais                  O nível alto é o usado pelos
-próximo do hardware, em                 programadores, em que o nível 
-que as instruções estão                 de abstração está mais próximo
-codificadas.                            do domínio do problema.
+• O nível baixo é o mais próximo do hardware, em que as instruções estão codificadas.
+                          
+• O nível alto é o usado pelos programadores, em que o nível de abstração está mais próximo do domínio do problema.
 
 ##
 ➔ A maioria dos computadores modernos tem 2 ou mais níveis, mas existem máquinas com 6: 
-##
 
 • Nível 0 - Lógico digital (portas lógicas) -> assunto de SD1 e SD2
+
 • Nível 1 - Microarquitetura
+
 • Nível 2 - Conjunto de instruções
+
 • Nível 3 - Máquina do Sistema operacional
+
 • Nível 4 - Assembly (linguagem de montagem)
+
 • Nível 5 - Linguagem orientada ao problema (alto nível)
 
 ##
 ➔ Diferenças entre compilação e interpretação:
 ##
+     COMPILAÇÃO (TRADUÇÃO)              X               INTERPRETAÇÃO: 
 
-   COMPILAÇÃO (TRADUÇÃO)              X               INTERPRETAÇÃO: 
+• A compilação lê todo o código e substitui as instruções por um código equivalente em outra linguagem, gerando um arquivo no final.                                              
+• A interpretação busca as instruções uma a uma e converte em outra linguagem, não gerando nenhum arquivo. 
 
-Esse método lê todo o código e                 Esse método busca as instruções  
-substitui as instruções por um                 uma a uma e converte em outra 
-código equivalente em outra                    linguagem, não gerando nenhum arquivo. 
-linguagem, gerando um arquivo                  (possui perda de desempenho e depende da
-no final.                                      velocidade do navegador)
+(possui perda de desempenho e depende da velocidade do navegador)
 
+ 
 ➔ Obs: é importante lembrar que para cada arquitetura de computador existe um compilador usado. 
 
 ##
@@ -51,24 +54,44 @@ no final.                                      velocidade do navegador)
 ##
 
       ARQUITETURA RISC                  X            ARQUITETURA CISC: 
+##    
+RISC
+##
+• Conjunto reduzido de instruções  
 
-• Conjunto reduzido de instruções             • Conjunto complexo de instruções
-• Não tem microprogramação                    • Possui microprogramação
-• Baixa complexidade                          • Recebe mais instruções
-• Mais rapidez                                • É mais lento
-• A maioria das instruções é feita            • Possui clock elevado
-em apenas 1 ciclo de clock                                            
+• Não tem microprogramação    
+
+• Baixa complexidade   
+
+• Mais rapidez    
+
+• A maioria das instruções é feita em apenas 1 ciclo de clock
+                                        
 • Uso de registradores
+##
+CISC
+##
+• Conjunto complexo de instruções
 
+• Possui microprogramação
+
+• Recebe mais instruções
+
+• É mais lento
+
+• Possui clock elevado
+##
 ➔ O que é microarquitetura? 
+
 É a organização interna de um processador, que inclui todos os mini componentes dele.
 
 ➔ O que é microprogramação? 
+
 É uma técnica utilizada em processadores para implementar as instruções de máquina de uma arquitetura específica.
 Essa técnica permite que alterações sejam feitas no processador sem precisar mexer nele fisicamente. 
 
 ##
-➔ Hierarquia de memória:
+         HIERARQUIA DE MEMÓRIA
 ##
 
 Chamamos de hierarquia de memória a organização em níveis de armazenamento de um sistema. São eles:
@@ -79,42 +102,63 @@ Chamamos de hierarquia de memória a organização em níveis de armazenamento d
 4 - SSD / HD (memórias secundárias): usado para armazenar dados permanentemente, mesmo quando desligar o PC.
 
 ##
-➔ Memórias:
+         MEMÓRIAS:
 ##
 
-• ROM (Read-only memory)
-Memória apenas de leitura, não são voláteis, gravadas apenas 1 vez.
+• tipo ROM (Read-only memory): Memória apenas de leitura, não são voláteis, gravadas apenas 1 vez.
 
-• PROM (Programmable read-only memory ): 1 gravação de dados, sem poder apagar 
-• EPROM (Erasable programmable read-only memory ): permite 1 regravação de dados
-• EEPROM (Electrically erasable programmable read-only memory): permite regravação elétrica de dados
-• EAROM (Electrically alterable read-only memory): tem a mesma função da EEPROM, mas com vida útil maior e mais rápida.
+• PROM (Programmable read-only memory ): 1 gravação de dados, sem poder apagar;
 
-• RAM (Random-acess memory):
+• EPROM (Erasable programmable read-only memory ): permite 1 regravação de dados;
 
-SRAM (Static random-acess memory): 
-• Rápida e estática
+• EEPROM (Electrically erasable programmable read-only memory): permite regravação elétrica de dados;
+
+• EAROM (Electrically alterable read-only memory): tem a mesma função da EEPROM, mas com vida útil maior e mais rápida;
+
+##
+• tipo RAM (Random-acess memory)
+
+➔ SRAM (Static random-acess memory): 
+
+• Rápida e estática 
+
 • Composta de flip-flops e transistores, por isso não necessita de constante atualização.
+
 • Costuma custar mais caro
 
-DRAM (Dynamic random-acess memory):
+➔ DRAM (Dynamic random-acess memory):
+
 • Capacidade alta
+
 • Acesso mais lento
+
 • Preço mais baixo 
+
 • Baseada em capacitores
+
 • Precisa de constante atualização pra evitar que os dados sejam perdidos. 
 
 ##
-Barramentos: são linhas de comunicação que o PC usa para interligar suas partes. 
+     BARRAMENTOS 
+     
+São linhas de comunicação que o PC usa para interligar suas partes. 
+
 ex: portas USB(barramento serial), PCI(entradas maiores), barramento SATA(entrada do HD)
 
-obs: Quanto mais linhas de endereço tiver um barramento, mais memória a CPU pode endereçar diretamente.
-obs: PCI express é a versão mais evoluída do PCI e tem maior taxa de transferência. 
+➔ obs: Quanto mais linhas de endereço tiver um barramento, mais memória a CPU pode endereçar diretamente.
+
+➔ obs: PCI express é a versão mais evoluída do PCI e tem maior taxa de transferência. 
 
 ##
-
-Arbitração: garante que cada componente do PC receba o tempo adequado para executar suas tarefas de forma justa e eficiente.
-Temporização: os sinais no barramento podem ser sincronizados com um clock central, para garantir uma boa execução das tarefas. 
-Largura: refere-se ao número de endereços e número de linhas de dados.
-
+     ARBITRAÇÃO 
+     
+Garante que cada componente do PC receba o tempo adequado para executar suas tarefas de forma justa e eficiente.
+## 
+     TEMPORIZAÇÃO
+     
+Os sinais no barramento podem ser sincronizados com um clock central, para garantir uma boa execução das tarefas. 
+##
+     LARGURA
+     
+Refere-se ao número de endereços e número de linhas de dados.
 ##
