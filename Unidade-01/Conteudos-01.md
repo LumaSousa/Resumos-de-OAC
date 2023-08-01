@@ -161,4 +161,61 @@ Os sinais no barramento podem ser sincronizados com um clock central, para garan
      LARGURA
      
 Refere-se ao número de endereços e número de linhas de dados.
+
 ##
+
+     BIG ENDIAN     X     LITTLE ENDIAN   
+
+• Essas ideias são as formas como computadores armazenam informações binárias na memória. Eles usam bytes, que são grupos de 8 bits, para armazenar dados. Por exemplo, o número 12345 em binário é 0b00110000 0b00111001. (O '0b' no início indica que o número está em notação binária.)
+
+• No Big Endian, você seguiria a leitura normalmente, começando pelo número "mais significativo" (o que naturalmente vem primeiro) 1 e indo até o "menos significativa" 5. A sequência pelo big endian ficaria: 1 -> 2 -> 3 -> 4 -> 5.
+
+• No Little Endian, você faria o oposto. Começaria pelo menos significativo 5 e iria subindo até chegar à mais significativa 1. A sequência little endian ficaria -> 5 -> 4 -> 3 -> 2 -> 1.
+
+Caso ainda esteja confuso, assista esse vídeo para entender melhor: 
+https://www.youtube.com/watch?v=jhErugDB-34
+
+
+
+##
+     Questões comuns de caírem nas provas:
+
+Obs: atentem-se, muitas vezes caem as mesmas questões com algum detalhe diferente, então prestem atenção.
+##
+
+
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/d7c0b4d9-7dab-4912-98b6-a0ec2d23b710)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/0c8f5fc2-0ea6-4c9f-b72e-f30886bd008d)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/53d068d6-600e-456a-9f88-a3aa7ee67c09)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/f5aaf6eb-e574-4de3-858e-f015d247c879)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/e205036a-cd6d-49f1-b3de-5b7dcbb2e970)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/a6d47d32-1253-4855-8337-9ac870b5c64e)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/3753d7fe-9c27-4b1c-895a-3ef837252800)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/c4abbaf0-5ebc-4c2f-9bf9-5fa7428b04dc)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/68f50025-6437-416f-96a2-db16fbf7e43c)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/a4a8b66c-5bf7-4284-91b3-2a7cf2941421)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/141d64d8-229a-4c99-94d3-e5685e1ed2ef)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/6121759c-f2b5-4b42-914d-43b8dffa6dfd)
+![image](https://github.com/LumaSousa/Resumos-de-OAC/assets/110626877/c25f58a5-1965-4ec8-ad90-c4ca04ac541a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
