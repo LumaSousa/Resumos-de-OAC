@@ -11,22 +11,22 @@ que temos disponível. (Arquivos alocados na forma de paginação no disco rígi
 ##
      CONCEITOS IMPORTANTES:
 ##
-MMU: dispositivo que faz o mapeamento virtual para físico.
+➔ MMU: dispositivo que faz o mapeamento virtual para físico.
 ##
-Conjunto de trabalho: páginas que o programa usa ativamente. 
+➔ Conjunto de trabalho: páginas que o programa usa ativamente. 
 ##
-Swapping: Essa técnica de gerenciamento de memória permite liberar espaço na memória física, deslocando páginas ou processos menos usados da memória
+➔ Swapping: Essa técnica de gerenciamento de memória permite liberar espaço na memória física, deslocando páginas ou processos menos usados da memória
 principal para a secundária.
 ##
-Thread: Sequência de instruções que podem ser executadas simultaneamente com outras.
+➔ Thread: Sequência de instruções que podem ser executadas simultaneamente com outras.
 ##
-Processos: representa a execução de um programa em um ambiente de SO, conjunto de instruções.
+➔ Processos: representa a execução de um programa em um ambiente de SO, conjunto de instruções.
 ## 
-Arquivo: É uma unidade lógica de armazenamento de dados em um PC.
+➔ Arquivo: É uma unidade lógica de armazenamento de dados em um PC.
 ##
-Diretório/pasta: Estrutura de organização hierárquica de arquivos e diretórios. 
+➔ Diretório/pasta: Estrutura de organização hierárquica de arquivos e diretórios. 
 ##
-Macros: são equivalentes às funções no alto nível(funções que a gente usa quando tá programando), pois realizam sequências de instruções 
+➔ Macros: são equivalentes às funções no alto nível(funções que a gente usa quando tá programando), pois realizam sequências de instruções 
 que são usadas com frequência. 
 ##
      PAGINAÇÃO          X          SEGMENTAÇÃO 
@@ -114,9 +114,9 @@ Multithreading - capacidade de um sistema de executar muitas threads (sequência
 
 • Multiprocessador: vários processadores independentes trabalhando juntos em um único sistema. 
 
--> Homogêneo: todos os processadores do conjunto possuem a mesma arquitetura e especificações.
+➔ Homogêneo: todos os processadores do conjunto possuem a mesma arquitetura e especificações.
 
--> Heterogêneo: trabalha com processadores diferentes, geralmente para especificar tarefas à cada um. 
+➔ Heterogêneo: trabalha com processadores diferentes, geralmente para especificar tarefas à cada um. 
 
 • Coprocessador: Seu objetivo principal é executar cálculos complexos, ele trabalha em conjunto com o processador principal.
 
@@ -126,5 +126,8 @@ Multithreading - capacidade de um sistema de executar muitas threads (sequência
 feita através da rede. 
 ##
 
+    Questões comuns de caírem nas provas:
+##
 
- 
+[3-av-OAC.pdf](https://github.com/LumaSousa/Resumos-de-OAC/files/12234824/3-av-OAC.pdf)
+##
