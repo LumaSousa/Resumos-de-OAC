@@ -15,7 +15,8 @@ Dei prioridade às definições que estiveram mais presentes nas provas, para qu
 * `5` Hierarquia de memória
 * `6` Memórias
 * `7` Barramentos
-* `8` Little endian  X  Big endian 
+* `8` Little endian  X  Big endian
+* `9` Questões de prova
 
 ### Unidade 2:
 * `1` Nível ISA
@@ -30,13 +31,15 @@ Dei prioridade às definições que estiveram mais presentes nas provas, para qu
 * `10` Procedimento  X  Corrotina 
 * `11` Modos de endereçamento 
 * `12` Pipeline
+* `13` Questões de prova
 
 ### Unidade 3:
 * `1` Memória virtual
-* `2` Conceitos da memória virtual
+* `2` Conceitos importantes
 * `3` Paginação 
 * `4` Segmentação
-* `5` Swapping
-* `6` Modos de operação
-* `7` Linguagem de montagem
+* `5` Modos de operação
+* `6` Sistema operacional
+* `7` Nível de linguagem de montagem
 * `8` Paralelismo
+* `9` Questões de prova
