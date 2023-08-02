@@ -183,11 +183,8 @@ https://www.youtube.com/watch?v=jhErugDB-34
 Obs: atentem-se, muitas vezes caem as mesmas questões com algum detalhe diferente, então prestem atenção.
 ##
 
-
-
-
-[1av.pdf](https://github.com/LumaSousa/Resumos-de-OAC/files/12224315/1av.pdf)
-
+[1-av-OAC.pdf](https://github.com/LumaSousa/Resumos-de-OAC/files/12234837/1-av-OAC.pdf)
+##
 
 
 
